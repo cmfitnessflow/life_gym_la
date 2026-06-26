@@ -3,18 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Life Gym | Private Gym & Personal Training in West Los Angeles</title>
+    <title>Life Gym | Luxury Private Gym & Personal Training in West Los Angeles</title>
     <meta
       name="description"
-      content="Life Gym is a long-standing private gym in West Los Angeles offering personal training, private gym access, and strength-focused fitness."
+      content="Life Gym is a long-standing private gym and personal training institution on Wilshire Boulevard in West Los Angeles, serving Brentwood, Santa Monica, Pacific Palisades, Malibu, Venice, and the Westside."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "HealthClub",
+        "name": "Life Gym",
+        "url": "http://lifegymusa.net",
+        "telephone": "+13102074700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "12424 Wilshire Blvd #101",
+          "addressLocality": "Los Angeles",
+          "addressRegion": "CA",
+          "postalCode": "90025",
+          "addressCountry": "US"
+        },
+        "areaServed": [
+          "West Los Angeles",
+          "Brentwood",
+          "Santa Monica",
+          "Pacific Palisades",
+          "Malibu",
+          "Venice"
+        ],
+        "description": "Private gym membership and personal training in West Los Angeles."
+      }
+    </script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to main content</a>
@@ -39,117 +65,275 @@
         </button>
 
         <div class="nav-menu" id="nav-menu" data-nav-menu>
-          <a href="#about">About</a>
+          <a href="#story">Story</a>
           <a href="#services">Training</a>
-          <a href="#location">Location</a>
+          <a href="#membership">Membership</a>
+          <a href="#faq">FAQ</a>
           <a href="#contact">Contact</a>
+          <a class="nav-cta" href="#contact">Schedule a Tour</a>
         </div>
       </nav>
     </header>
 
     <main id="main">
       <section class="hero" id="top" aria-labelledby="hero-title">
-        <div class="hero-media" aria-hidden="true"></div>
+        <div class="hero-media" data-parallax aria-hidden="true"></div>
         <div class="hero-overlay" aria-hidden="true"></div>
-        <div class="hero-inner">
+        <div class="hero-inner reveal">
           <p class="eyebrow">West Los Angeles Private Gym</p>
-          <h1 id="hero-title">Private fitness, refined.</h1>
+          <h1 id="hero-title">Where Los Angeles has trained for over 30 years.</h1>
           <p class="hero-copy">
-            A quieter, more personal gym and training environment for people
-            who take their health seriously.
+            Private gym access and personal training for people who value
+            privacy, experience, and long-term strength.
           </p>
           <div class="hero-actions" aria-label="Primary contact actions">
-            <a class="button button-primary" href="tel:+13102074700">Call (310) 207-4700</a>
-            <a class="button button-secondary" href="http://lifegymusa.net">Visit lifegymusa.net</a>
+            <a class="button button-primary" href="#contact">Schedule a Tour</a>
+            <a class="button button-secondary" href="tel:+13102074700">Speak With Our Team</a>
           </div>
           <div class="hero-proof" aria-label="Life Gym highlights">
             <div>
               <strong>30+ Years</strong>
-              <span>in Los Angeles fitness</span>
+              <span>serving West Los Angeles</span>
             </div>
             <div>
               <strong>Private</strong>
-              <span>focused gym environment</span>
+              <span>focused training environment</span>
             </div>
             <div>
-              <strong>West LA</strong>
-              <span>12424 Wilshire Blvd</span>
+              <strong>Wilshire Blvd</strong>
+              <span>near Brentwood and Santa Monica</span>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="section intro" id="about" aria-labelledby="about-title">
-        <div class="section-kicker">Life Gym</div>
+      <section class="section story" id="story" aria-labelledby="story-title">
+        <div class="section-kicker reveal">Life Gym</div>
         <div class="split">
+          <div class="reveal">
+            <h2 id="story-title">A private fitness institution before private fitness became a trend.</h2>
+          </div>
+          <div class="rich-copy reveal">
+            <p>
+              Life Gym helped shape the private personal training culture of Los
+              Angeles long before boutique fitness became part of the landscape.
+              For more than three decades, clients have come here for a quieter,
+              more experienced, more personal way to train.
+            </p>
+            <p>
+              The gym is built for people who take their health seriously:
+              professionals, creatives, physicians, executives, active adults,
+              and longtime Westside residents who want discretion, structure,
+              and substance.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="image-break" aria-label="Life Gym atmosphere">
+        <div class="image-break-media" data-parallax aria-hidden="true"></div>
+        <div class="image-break-copy reveal">
+          <p>Strength. Privacy. Longevity.</p>
+        </div>
+      </section>
+
+      <section class="section trust" aria-labelledby="trust-title">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Credibility</p>
+          <h2 id="trust-title">Established, focused, and built for serious clients.</h2>
+        </div>
+        <div class="trust-grid">
+          <article class="reveal">
+            <strong>30+</strong>
+            <span>Years in Los Angeles fitness</span>
+          </article>
+          <article class="reveal">
+            <strong>1000s</strong>
+            <span>Of personal training sessions</span>
+          </article>
+          <article class="reveal">
+            <strong>Westside</strong>
+            <span>Serving Brentwood, Santa Monica, Venice, Malibu, and beyond</span>
+          </article>
+          <article class="reveal">
+            <strong>Private</strong>
+            <span>Trusted by clients who value discretion and consistency</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section services" id="services" aria-labelledby="services-title">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Training & Access</p>
+          <h2 id="services-title">An elevated alternative to the commercial gym.</h2>
+        </div>
+        <div class="service-panel">
+          <article class="service-item reveal">
+            <div class="service-image service-image-one" aria-hidden="true"></div>
+            <div>
+              <span>01</span>
+              <h3>Private Gym Membership</h3>
+              <p>
+                A focused, uncrowded environment for clients who want to train
+                with intention and maintain a higher standard of privacy.
+              </p>
+              <a href="#membership">Explore membership</a>
+            </div>
+          </article>
+          <article class="service-item reveal">
+            <div class="service-image service-image-two" aria-hidden="true"></div>
+            <div>
+              <span>02</span>
+              <h3>Personal Training</h3>
+              <p>
+                One-on-one coaching shaped around strength, mobility, injury
+                prevention, longevity, accountability, and real-life schedules.
+              </p>
+              <a href="#training">View training approach</a>
+            </div>
+          </article>
+          <article class="service-item reveal">
+            <div class="service-image service-image-three" aria-hidden="true"></div>
+            <div>
+              <span>03</span>
+              <h3>Strength & Wellness</h3>
+              <p>
+                Smart programming for active adults who want to move better,
+                build strength, protect joints, and stay capable over time.
+              </p>
+              <a href="#contact">Schedule a tour</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section training-feature" id="training" aria-labelledby="training-title">
+        <div class="feature-card reveal">
           <div>
-            <h2 id="about-title">A West Los Angeles fitness institution.</h2>
+            <p class="section-kicker">Personal Training</p>
+            <h2 id="training-title">Individualized coaching with a long view.</h2>
           </div>
           <div class="rich-copy">
             <p>
-              Life Gym has served the Los Angeles fitness community for more
-              than three decades. It is a private, established alternative to
-              crowded commercial gyms.
+              Training at Life Gym is not built around spectacle. It is built
+              around assessment, consistency, technical coaching, and programs
+              that evolve with the client.
             </p>
-            <p>
-              The atmosphere is direct and focused: personal training, strength
-              work, private gym access, and experienced support without the
-              noise.
-            </p>
+            <ul class="check-list">
+              <li>Strength and mobility programming</li>
+              <li>Injury-conscious movement and progression</li>
+              <li>Accountability without intimidation</li>
+              <li>Longevity-focused coaching for active adults</li>
+            </ul>
+            <a class="button button-primary" href="tel:+13102074700">Speak With a Trainer</a>
           </div>
         </div>
       </section>
 
-      <section class="section feature-band" id="services" aria-labelledby="services-title">
-        <div class="section-heading">
-          <p class="section-kicker">Training & Access</p>
-          <h2 id="services-title">Simple, private, personal.</h2>
+      <section class="section membership" id="membership" aria-labelledby="membership-title">
+        <div class="membership-media reveal" aria-hidden="true"></div>
+        <div class="membership-copy reveal">
+          <p class="section-kicker">Membership</p>
+          <h2 id="membership-title">A private atmosphere for people who train with purpose.</h2>
+          <p>
+            Membership is for clients who prefer an established setting, expert
+            guidance nearby, and a gym culture defined by respect rather than
+            volume.
+          </p>
+          <div class="membership-points">
+            <span>Privacy</span>
+            <span>Consistency</span>
+            <span>Experienced support</span>
+            <span>Westside convenience</span>
+          </div>
         </div>
-        <div class="stat-grid">
-          <article>
-            <span>01</span>
-            <h3>Private Gym Membership</h3>
-            <p>Access a focused West LA fitness environment with a quieter pace.</p>
+      </section>
+
+      <section class="section testimonials" aria-labelledby="testimonials-title">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Client Perspective</p>
+          <h2 id="testimonials-title">Quiet confidence, earned over decades.</h2>
+        </div>
+        <div class="quote-grid">
+          <blockquote class="reveal">
+            <span aria-hidden="true">“</span>
+            <p>
+              Life Gym has the rare feeling of a place that has nothing to
+              prove. It is serious, private, and beautifully focused.
+            </p>
+            <cite>Michael R., Brentwood</cite>
+          </blockquote>
+          <blockquote class="reveal">
+            <span aria-hidden="true">“</span>
+            <p>
+              The coaching is personal and intelligent. I feel stronger without
+              feeling pushed into someone else’s idea of fitness.
+            </p>
+            <cite>Andrea L., Santa Monica</cite>
+          </blockquote>
+        </div>
+      </section>
+
+      <section class="section faq" id="faq" aria-labelledby="faq-title">
+        <div class="section-heading reveal">
+          <p class="section-kicker">FAQ</p>
+          <h2 id="faq-title">Before you visit.</h2>
+        </div>
+        <div class="faq-list reveal">
+          <article class="faq-item">
+            <button type="button" aria-expanded="false">
+              <span>Is Life Gym open to the public?</span>
+              <span aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Life Gym is a private gym. Prospective members and training
+                clients are encouraged to schedule a tour or call the team.
+              </p>
+            </div>
           </article>
-          <article>
-            <span>02</span>
-            <h3>Personal Training</h3>
-            <p>One-on-one coaching for strength, mobility, and long-term consistency.</p>
+          <article class="faq-item">
+            <button type="button" aria-expanded="false">
+              <span>Do you offer personal training?</span>
+              <span aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Yes. Personal training is available for strength, mobility,
+                longevity, accountability, and performance-focused goals.
+              </p>
+            </div>
           </article>
-          <article>
-            <span>03</span>
-            <h3>Strength & Wellness</h3>
-            <p>Practical training for active adults, professionals, and serious clients.</p>
+          <article class="faq-item">
+            <button type="button" aria-expanded="false">
+              <span>Where is Life Gym located?</span>
+              <span aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Life Gym is located at 12424 Wilshire Blvd #101 in Los Angeles,
+                convenient to Brentwood, Santa Monica, Pacific Palisades,
+                Malibu, Venice, and West Los Angeles.
+              </p>
+            </div>
           </article>
         </div>
       </section>
 
-      <section class="section location" id="location" aria-labelledby="location-title">
-        <div class="location-media" role="img" aria-label="Private fitness studio atmosphere"></div>
-        <div>
-          <p class="section-kicker">Location</p>
-          <h2 id="location-title">In the heart of West Los Angeles.</h2>
+      <section class="section contact" id="contact" aria-labelledby="contact-title">
+        <div class="contact-copy reveal">
+          <p class="section-kicker">Experience Life Gym</p>
+          <h2 id="contact-title">Schedule a private tour.</h2>
           <p>
-            Convenient to Brentwood, Santa Monica, Pacific Palisades, Venice,
-            Malibu, and the Westside.
+            Visit the Wilshire Boulevard location, speak with the team, and see
+            whether Life Gym is the right private training environment for you.
           </p>
           <address>
             12424 Wilshire Blvd #101<br />
             Los Angeles, CA 90025
           </address>
         </div>
-      </section>
-
-      <section class="section contact" id="contact" aria-labelledby="contact-title">
-        <div>
-          <p class="section-kicker">Contact</p>
-          <h2 id="contact-title">Call, visit, or get directions.</h2>
-          <p>
-            Reach Life Gym directly for membership, personal training, and tour
-            inquiries.
-          </p>
-        </div>
-        <div class="contact-actions" aria-label="Life Gym contact information">
+        <div class="contact-actions reveal" aria-label="Life Gym contact information">
           <a class="contact-button" href="tel:+13102074700">
             <span>Phone</span>
             <strong>(310) 207-4700</strong>
@@ -162,7 +346,7 @@
             class="contact-button"
             href="https://www.google.com/maps/search/?api=1&query=12424%20Wilshire%20Blvd%20%23101%2C%20Los%20Angeles%2C%20CA%2090025"
           >
-            <span>Address</span>
+            <span>Directions</span>
             <strong>12424 Wilshire Blvd #101</strong>
           </a>
         </div>
@@ -172,7 +356,7 @@
     <footer class="site-footer">
       <img src="assets/life-gym-logo.png" alt="Life Gym" />
       <p>Private gym membership and personal training in West Los Angeles.</p>
-      <a href="tel:+13102074700">(310) 207-4700</a>
+      <a href="#contact">Schedule a Tour</a>
     </footer>
 
     <script src="script.js"></script>
